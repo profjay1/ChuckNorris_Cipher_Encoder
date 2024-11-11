@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChuckNorrisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-11T18:24:44" hostname="SAHEED_OMOTOLA" time="0.111">
+  <properties/>
+  <testcase name="start" classname="ChuckNorrisTest" time="0.111"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Please input operation (encode/decode/exit): > encode
+Input string:
+> H W!
+Encoded string:
+0 0 00 00 0 0 00 0000 0 0 00 00000 0 0 00 0 0 0 00 0 0 000 00 0 0 0 00 0000 0 0
+Please input operation (encode/decode/exit): > decode
+Input encoded string:
+> 0 0 00 00 0 0 00 0000 0 0 00 00000 0 0 00 0 0 0 00 0 0 000 00 0 0 0 00 0000 0 0
+Decoded string:
+H W!
+Please input operation (encode/decode/exit): > Hello world!
+There is no 'Hello world!' operation
+Please input operation (encode/decode/exit): > decode
+Input encoded string:
+> hello world!
+not valid
+Please input operation (encode/decode/exit): > decode
+Input encoded string:
+> 0 0 00 00 0 0 00 0000 0 0 00 0 0 00 0 0 0 00 0 0 000 00 0 0 0 00 0000 0 0
+not valid
+Please input operation (encode/decode/exit): > decode
+Input encoded string:
+> 0 0 00 00 0 0 00 000 0 0 00 0000 0 0 00 0 0 0 00 0 0 000 00 0 0 0 00 0000 0 0
+not valid
+Please input operation (encode/decode/exit): > decode
+Input encoded string:
+> 0 0 00 00 0 0 000 000
+not valid
+Please input operation (encode/decode/exit): > exit
+Bye!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
